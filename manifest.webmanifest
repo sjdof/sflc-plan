@@ -1,0 +1,16 @@
+{
+  "name": "三分化 线性计划",
+  "short_name": "三分化",
+  "description": "凯圣王 × 谭成义三分化线性计划：三天动作表、逐周进阶表、组间歇与 RPE 参数。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EDEFEC",
+  "theme_color": "#EDEFEC",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
