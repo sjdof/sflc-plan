@@ -23,12 +23,15 @@ day3.html             臀 · 股四头 · 腘绳
 params.html           组间歇 / RM / RPE / 公斤 / 力竭 / 训练频率
 assets/style.css      设计系统（三态主题：亮 / 暗 / 跟随系统）
 assets/app.js         打卡与离线注册
+assets/fonts/         Archivo（latin 子集，自托管，OFL 1.1）
 sw.js                 离线缓存（网络优先，断网回落）
 manifest.webmanifest  可「添加到主屏幕」
 icon.svg              站点图标
 ```
 
 纯静态，无构建步骤。改完直接刷新。
+
+**字体不依赖 Google Fonts。** 数字与拉丁文用自托管的 Archivo（`assets/fonts/`，latin 子集，三个字重共 43KB，SIL OFL 1.1）；中文用系统字体（iOS/macOS 走苹方，Windows 走微软雅黑）。这样在国内网络下也不会因为外部字体请求拖慢首次渲染。
 
 ## 本地预览
 

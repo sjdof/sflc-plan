@@ -1,3 +1,31 @@
+/* --------------------------------------------------------------------------
+   Archivo (latin subset) — 自托管，不走 Google Fonts。
+   SIL Open Font License 1.1，见 assets/fonts/OFL.txt。
+   中文用系统字体（PingFang SC / 微软雅黑），避免几 MB 的 CJK 网络字体。
+   -------------------------------------------------------------------------- */
+
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('fonts/archivo-500.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+  src:url('fonts/archivo-600.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('fonts/archivo-700.woff2') format('woff2');
+}
+
 /* ==========================================================================
    三分化 线性计划 — design tokens
    Palette comes from the source itself: black marker on a white board.
@@ -25,7 +53,7 @@
 
   --check:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.6l3.4 3.4L13 4.4' fill='none' stroke='%23FFFFFF' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 
-  --font-ui:'Noto Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei',system-ui,sans-serif;
+  --font-ui:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',system-ui,sans-serif;
   --font-data:'Archivo','Helvetica Neue',Arial,sans-serif;
   --bar-h:54px;
 }
